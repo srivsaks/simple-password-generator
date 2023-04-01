@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app">
+      <h2>Password Generator</h2>
+      <div class="result"></div>
+      <div>
+        <label for="length">password length</label>
+        <input id="length" type="number" min="1" max="20" />
+      </div>
+      <div>
+        <label for="uppercase">include uppercase letters</label>
+        <input id="upper" type="checkbox" checked />
+      </div>
+      <div>
+        <label for="lowercase">include lowercase letters</label>
+        <input id="lower" type="checkbox" checked />
+      </div>
+      <div>
+        <label for="number">include numbers</label>
+        <input id="numbers" type="checkbox" checked />
+      </div>
+      <div>
+        <label for="symbols">include symbols</label>
+        <input id="symbols" type="checkbox" checked />
+      </div>
+      <button>Generate Password</button>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
